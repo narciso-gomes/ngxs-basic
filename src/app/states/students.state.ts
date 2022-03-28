@@ -6,12 +6,19 @@ export class StudentStateModel {
   students: Student[] = [];
 }
 
+/**
+ * Define default value to StudentsStateModel
+ */
 @State<StudentStateModel>({
   name: 'students',
   defaults: {
     students: [],
   },
 })
+
+/**
+ * Management students state
+ */
 export class StudentState {
   /**
    * Selector all students
