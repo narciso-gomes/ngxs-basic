@@ -24,7 +24,7 @@ export class RemoveStudent {
    * Constructor
    * @param id - Student id
    */
-  constructor(public id: number) {}
+  constructor(public id: string) {}
 }
 
 

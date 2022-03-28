@@ -1,0 +1,13 @@
+<div class="left">
+  <input type="number" placeholder="regId" #id />
+  <input type="text" placeholder="name" #name />
+  <input type="text" placeholder="address" #address />
+
+  <button
+    (click)="
+      addStudent({ regId: id.value, name: name.value, address: address.value })
+    "
+  >
+    Add a Student
+  </button>
+</div>

@@ -1,0 +1,9 @@
+<div class="right">
+  <h3>Student Registry</h3>
+  <ul>
+    <li *ngFor="let student of (students$ | async).students "
+    (click)="deleteStudent(student.regId)">
+      <h6>{{ student.name }}</h6>
+    </li>
+  </ul>
+</div>
