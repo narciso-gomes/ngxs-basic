@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgxsModule } from '@ngxs/store';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StudentState } from './states/students.state';
+import { StudentState } from './shared/states/students.state';
 
 @NgModule({
   declarations: [AppComponent],

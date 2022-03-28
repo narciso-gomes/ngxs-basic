@@ -1,6 +1,6 @@
-import { AddStudent, RemoveStudent } from './../actions/students.action';
+import { AddStudent, RemoveStudent } from '../actions/students.action';
 import { Action, Selector, State, StateContext } from '@ngxs/store';
-import { Student } from './../interfaces/student.interface';
+import { Student } from '../interfaces/student.interface';
 
 export class StudentStateModel {
   students: Student[] = [];

@@ -1,4 +1,4 @@
-import { Student } from './../interfaces/student.interface';
+import { Student } from '../interfaces/student.interface';
 
 
 /**
